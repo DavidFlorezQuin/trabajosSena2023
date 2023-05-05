@@ -7,12 +7,13 @@ package trabajos;
     import java.util.Scanner;
 
 /**
- *
+ *    import java.util.Scanner;
+
  * @author SENA
  */
 public class ejercicio5 {
-
-    public static ejercicio5{
+    public void ejercicio() {
+        
         Scanner sc = new Scanner(System.in);
         int n, horasTrabajadas;
         double salarioSemanal, salarioNormal, salarioExtra, salarioTriple;
@@ -50,6 +51,4 @@ public class ejercicio5 {
         
         System.out.println("Fin del programa.");
     }
-}
-
 }
