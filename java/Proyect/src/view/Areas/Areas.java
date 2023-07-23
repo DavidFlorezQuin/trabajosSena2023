@@ -59,36 +59,36 @@ public class Areas {
         
         
         //hallar el área del trapecio
-                Trapecio trapecio = new Trapecio();
-                x.setMensaje("Digite la primera base del trapecio: ");
-                trapecio.setB1(x.Capturar());
-                x.setMensaje("Digite la segunda basse del trapecio: ");
-                trapecio.setB2(x.Capturar());
-                x.setMensaje("Digite la altura perpendicular del trapecio: ");
-                trapecio.setH(x.Capturar());
-                System.out.println("El área del trapecio es: "+trapecio.Area());
+        Trapecio trapecio = new Trapecio();
+        x.setMensaje("Digite la primera base del trapecio: ");
+        trapecio.setB1(x.Capturar());
+        x.setMensaje("Digite la segunda basse del trapecio: ");
+        trapecio.setB2(x.Capturar());
+        x.setMensaje("Digite la altura perpendicular del trapecio: ");
+        trapecio.setH(x.Capturar());
+        System.out.println("El área del trapecio es: "+trapecio.Area());
                 
-                //hallar el área del rombo
-                Rombo rombo = new Rombo();
-                x.setMensaje("Digite la diagonal mayor del rombo: ");
-                rombo.setDiama(x.Capturar());
-                x.setMensaje("Digite la diagonal menor del rombo: ");
-                rombo.setDiame(x.Capturar());
-                System.out.println("El área del rombo es: "+rombo.Area());
+         //hallar el área del rombo
+           Rombo rombo = new Rombo();
+          x.setMensaje("Digite la diagonal mayor del rombo: ");
+          rombo.setDiama(x.Capturar());
+          x.setMensaje("Digite la diagonal menor del rombo: ");
+          rombo.setDiame(x.Capturar());
+          System.out.println("El área del rombo es: "+rombo.Area());
                 
                 
-                //hallar e volumen de cubo
+           //hallar e volumen de cubo
                 
-                Cubo cubo = new Cubo();
-                x.setMensaje("Digite la base del cubo: ");
-                cubo.setBase(x.Capturar());
-                x.setMensaje("Digite la profundidad del cubo: ");
-                cubo.setProfun(x.Capturar());
+          Cubo cubo = new Cubo();
+          x.setMensaje("Digite la base del cubo: ");
+           cubo.setBase(x.Capturar());
+            x.setMensaje("Digite la profundidad del cubo: ");
+           cubo.setProfun(x.Capturar());
                 x.setMensaje("Digite la altura del cubo: ");
                 cubo.setAltura(x.Capturar());
                 System.out.println("El volumen del cubo es: "+cubo.Volumen());
                 
-                 //hallar e volumen de la esfera
+            //hallar e volumen de la esfera
                 
                Esfera esfera = new Esfera();
                x.setMensaje("Digite la radio de la esfera: ");
