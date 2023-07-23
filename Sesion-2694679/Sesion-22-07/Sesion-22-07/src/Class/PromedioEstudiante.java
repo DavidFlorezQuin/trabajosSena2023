@@ -139,5 +139,14 @@ public class PromedioEstudiante {
        this.setPromFisica((this.getExamFisica()*0.8)+(((this.getFisicaNota1()+this.getFisicaNota2())/2)*0.2));
        return this.PromFisica;
     }
+    public Double MostrarQuimica(){
+       this.setPromQuimica((this.getExamQuimica()*0.8)+(((this.getQuimNota1()+this.getQuimNota1()+this.getQuimNota3())/3)*0.2));
+       return this.PromQuimica;
+    }
+    
+    public Double Mostrar(){
+       this.setPromTotal(this.getPromMate()+this.getPromQuimica()+this.getPromFisica()/3);
+       return this.PromTotal;
+    }
     
 }
